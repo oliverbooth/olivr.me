@@ -17,30 +17,28 @@
 <body class="h-100">
     <div class="bg-ramp"></div>
     <div class="row h-100" style="margin-left:0;margin-right:0;">
-        <div class="col-sm-12 my-auto">
-            <div class="container">
-                <div id="profile-card" class="card w-512 mg-0-auto">
-                    <div class="card-body text-center">
-                        <p><img id="profile-headshot" src="/img/headshot_180x180.png" alt="It's me." class="z-depth-2" width="180"></p>
-                        
-                        <hr>
+        <div class="col-sm-4 col-md-6 col-lg-4 my-auto mg-0-auto">
+            <div id="profile-card" class="card col-sm-12">
+                <div class="card-body text-center">
+                    <p><img id="profile-headshot" src="/img/headshot_180x180.png" alt="It's me." class="z-depth-2" width="180"></p>
 
-                        <h5 class="card-title">Oliver Booth</h5>
+                    <hr>
 
-                        <div class="card-text">
-                            <p class="bio-line">Coffee enthusiast with a love for all things tech. Tech enthusiast with a love for all things coffee.</p>
-                        </div>
+                    <h5 class="card-title">Oliver Booth</h5>
 
-                        <p>
-                            <a href="https://github.com/oliverbooth" title="GitHub" class="btn btn-outline-dark"><i class="fab fa-github"></i></a>
-                            <a href="https://oliverbooth.itch.io/" title="Itch.io" class="btn btn-outline-danger"><i class="fab fa-itch-io"></i></a>
-                            <a href="https://play.google.com/store/apps/developer?id=Oliver+Booth" title="Google Play" class="btn btn-outline-success"><i class="fab fa-google-play"></i></a>
-                            <a href="https://twitter.com/oliverlukebooth" title="Twitter" class="btn btn-outline-info"><i class="fab fa-twitter"></i></a>
-                            <a href="mailto:me@olivr.me" title="Email" class="btn btn-outline-primary"><i class="fas fa-envelope"></i></a>
-                        </p>
-                        
-                        <span class="small text-muted">&copy; <?= date("Y") ?></span>
+                    <div class="card-text">
+                        <p class="bio-line">Coffee enthusiast with a love for all things tech. Tech enthusiast with a love for all things coffee.</p>
                     </div>
+
+                    <p>
+                        <a href="https://github.com/oliverbooth" title="GitHub" class="btn btn-outline-dark"><i class="fab fa-github"></i></a>
+                        <a href="https://oliverbooth.itch.io/" title="Itch.io" class="btn btn-outline-danger"><i class="fab fa-itch-io"></i></a>
+                        <a href="https://play.google.com/store/apps/developer?id=Oliver+Booth" title="Google Play" class="btn btn-outline-success"><i class="fab fa-google-play"></i></a>
+                        <a href="https://twitter.com/oliverlukebooth" title="Twitter" class="btn btn-outline-info"><i class="fab fa-twitter"></i></a>
+                        <a href="mailto:me@olivr.me" title="Email" class="btn btn-outline-primary"><i class="fas fa-envelope"></i></a>
+                    </p>
+
+                    <span class="small text-muted">&copy; <?= date("Y") ?></span>
                 </div>
             </div>
         </div>
