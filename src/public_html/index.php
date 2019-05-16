@@ -28,7 +28,7 @@
                         <h5 class="card-title">Oliver Booth</h5>
 
                         <div class="card-text">
-                            <p class="bio-line">Coffee enthusiast with a lover for all things tech. Tech enthusiast with a lover for all things coffee.</p>
+                            <p class="bio-line">Coffee enthusiast with a love for all things tech. Tech enthusiast with a love for all things coffee.</p>
                         </div>
 
                         <p>
