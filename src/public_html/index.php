@@ -19,7 +19,7 @@
     <div class="row h-100" style="margin-left:0;margin-right:0;">
         <div class="col-sm-12 my-auto">
             <div class="container">
-                <div id="profile-card" class="card w-512 mg-0-auto z-depth-3" data-tilt data-tilt-max="2" data-tilt-speed="400" data-tilt-perspective="500">
+                <div id="profile-card" class="card w-512 mg-0-auto">
                     <div class="card-body text-center">
                         <p><img id="profile-headshot" src="/img/headshot_180x180.png" alt="It's me." class="z-depth-2" width="180"></p>
                         
@@ -48,7 +48,6 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/cheet.js/0.3.3/cheet.min.js"></script>
     <script src="/js/main.min.js"></script>
 </body>
