@@ -34,16 +34,17 @@ body {
 }
 
 #profile-card {
-    animation: card-entry 1s;
-    animation-direction: normal;
-    animation-fill-mode: forwards;
-    animation-timing-function: ease-out;
+    animation: 1s ease-out forwards card-entry;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
     transition: box-shadow 250ms;
 
     &:hover {
         box-shadow: 0 8px 17px 2px rgba(0,0,0,0.14), 0 3px 14px 2px rgba(0,0,0,0.12), 0 5px 5px -3px rgba(0,0,0,0.2);
     }
+}
+
+.anim-mirror-flip {
+    animation: 1s ease-in-out forwards mirror-flip;
 }
 
 @keyframes card-entry {
@@ -54,5 +55,15 @@ body {
     100% {
         margin-top: 0;
         opacity: 1;
+    }
+}
+
+@keyframes mirror-flip {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    100% {
+        transform: rotateY(180deg);
     }
 }

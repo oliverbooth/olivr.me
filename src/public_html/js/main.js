@@ -3,6 +3,10 @@ $(() => {
         window.open("https://github.com/oliverbooth/olivr.me", "_blank");
     });
 
+    cheet("m i r r o r", () => {
+        $(".row").addClass("anim-mirror-flip");
+    });
+
     cheet("↑ ↑ ↓ ↓ ← → ← → b a", () => {
         $("body,html,p,h5").css({
             "font-family": "'Comic Sans MS','Times New Roman',cursive,serif",
