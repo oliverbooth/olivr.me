@@ -36,6 +36,19 @@ module.exports = (grunt) => {
             }
         },
 
+        postcss: {
+            options: {
+                processors: [
+                    require("pixrem")(),
+                    require("autoprefixer")({ browsers: "last 2 versions" })
+                ]
+            },
+
+            dist: {
+                src: "dist/**/*.css"
+            }
+        },
+
         watch: {
             dist: {
                 files: "src/**/*",
@@ -47,6 +60,6 @@ module.exports = (grunt) => {
         }
     });
 
-    grunt.registerTask("default", ["clean", "copy", "sass", "uglify"]);
+    grunt.registerTask("default", ["clean", "copy", "sass", "uglify", "postcss"]);
     grunt.registerTask("live", ["default", "watch"]);
 };

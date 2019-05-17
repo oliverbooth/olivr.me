@@ -13,14 +13,17 @@
         "url": "https://olivr.me"
     },
     "devDependencies": {
+        "autoprefixer": "^9.5.1",
         "grunt": "^1.0.4",
         "grunt-contrib-clean": "^2.0.0",
         "grunt-contrib-copy": "^1.0.0",
         "grunt-contrib-uglify-es": "^3.3.0",
         "grunt-contrib-watch": "^1.1.0",
+        "grunt-postcss": "^0.9.0",
         "grunt-sass": "^3.0.2",
         "load-grunt-tasks": "^4.0.0",
-        "node-sass": "^4.12.0"
+        "node-sass": "^4.12.0",
+        "pixrem": "^5.0.0"
     },
     "dependencies": {}
 }
