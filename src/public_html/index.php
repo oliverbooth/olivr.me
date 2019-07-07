@@ -46,6 +46,9 @@
                     </p>
 
                     <span class="small text-muted">&copy; <?= date("Y") ?></span>
+
+                    <!-- olivr.me banner -->
+                    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-1395159557477317" data-ad-slot="9108709541" data-ad-format="auto" data-full-width-responsive="true"></ins>
                 </div>
             </div>
         </div>
